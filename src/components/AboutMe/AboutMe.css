@@ -1,0 +1,25 @@
+p {
+  font-family: "Playfair Display SC", serif;
+}
+
+.rounded-circle {
+  height: auto;
+  width: 100%;
+  margin-top: 100px;
+  opacity: 100%;
+  margin-left: -10px;
+  margin-bottom: 60px;
+}
+
+.about {
+  height: 100%;
+
+  background-color: rgba(245, 201, 228, 0.247);
+
+  margin-top: 100px;
+  position: relative;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+}

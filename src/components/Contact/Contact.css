@@ -1,0 +1,42 @@
+.btn {
+  border: none;
+}
+.btn-primary {
+  background-color: transparent !important;
+}
+img {
+  height: 30px;
+  width: 30px;
+}
+
+.rounded-circle {
+  margin-top: 90px;
+  width: 70%;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Playfair Display SC", serif;
+  text-align: center !important;
+  position: absolute;
+  /* margin-top: -50px;
+  padding-left: 150px;
+  padding-right: 80px; */
+  opacity: 100% !important;
+}
+/* .row2 {
+  background-color: rgba(245, 201, 228, 0.247);
+}
+
+.col {
+  width: 300px;
+}
+
+.contact-btn {
+  margin-top: 150px;
+  width: 100%;
+}
+
+.card-body {
+  background-color: rgba(245, 201, 228, 0.247) !important;
+} */
