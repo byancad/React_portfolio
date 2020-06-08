@@ -38,12 +38,14 @@ class App extends React.Component {
       <Router>
         <Switch>
           <Route path="/AboutMe" component={AboutMe} />
+          <Route path="/" component={AboutMe} exact />
+          <Route path="/React_portfolio" component={AboutMe} exact />
           <Route path="/Portfolio" component={Portfolio} />
           <Route path="/Contact" component={Contact} />
         </Switch>
         <div style={{ height: "100%" }}>
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-          <AboutMe />
+
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
 

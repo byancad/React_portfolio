@@ -31,7 +31,7 @@ a {
 }
 
 .card-img {
-  background-color: rgba(233, 155, 194, 0.459);
+  background-color: rgba(233, 155, 194, 0.459) !important;
   opacity: 60%;
 }
 
